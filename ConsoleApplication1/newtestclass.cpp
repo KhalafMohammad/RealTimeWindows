@@ -1,0 +1,1 @@
+#include "newtestclass.h"
