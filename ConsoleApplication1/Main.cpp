@@ -5,12 +5,7 @@
 #include <tchar.h>
 #include <winbase.h>
 #include "newtestclass.h"
-
 #include <TlHelp32.h>
-
-
-
-
 
 
 void Get_Process_Handle(DWORD ProcessAccessInfo, DWORD processID);
@@ -29,8 +24,8 @@ void Set_Process_Affinity(HANDLE process_handle, DWORD_PTR dwProcessAffinityMask
 * PROCESS_MODE_BACKGROUND_END 0x200000
 * REALTIME_PRIORITY_CLASS 0x100 Xx-*NUKE*-xX {{DO NOT USE IT WITHOUT RESERVING CPU CORES}}
 */
-#define PriorityClass HIGH_PRIORITY_CLASS
-#define ProcessID 15756
+#define PriorityClass HIGH_PRIORITY_CLASS //priority class of the process you want to change
+#define ProcessID 15756 //process id of the process you want to change the priority of
 
 
 
