@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{304C3A0D-4BCC-4832-AF0E-786693D80266}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\ZTIMohammadIOT\\Desktop\\Applications\\ConsoleApplication1\\RealTimeWindows\\ConsoleApplication1\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{304C3A0D-4BCC-4832-AF0E-786693D80266}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304C3A0D-4BCC-4832-AF0E-786693D80266}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\ZTIMohammadIOT\\Desktop\\Applications\\ConsoleApplication1\\RealTimeWindows\\ConsoleApplication1\\mainheader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{304C3A0D-4BCC-4832-AF0E-786693D80266}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\mainheader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304C3A0D-4BCC-4832-AF0E-786693D80266}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\ZTIMohammadIOT\\Desktop\\Applications\\ConsoleApplication1\\RealTimeWindows\\ConsoleApplication1\\mainheader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{304C3A0D-4BCC-4832-AF0E-786693D80266}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\mainheader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,7 +21,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 173,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -24,15 +32,47 @@
               "RelativeDocumentMoniker": "ConsoleApplication1\\Main.cpp",
               "ToolTip": "C:\\Users\\ZTIMohammadIOT\\Desktop\\Applications\\ConsoleApplication1\\RealTimeWindows\\ConsoleApplication1\\Main.cpp",
               "RelativeToolTip": "ConsoleApplication1\\Main.cpp",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAAD4AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-09T09:07:21.333Z",
+              "WhenOpened": "2024-09-11T09:20:32.572Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 227,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "mainheader.h",
+              "DocumentMoniker": "C:\\Users\\ZTIMohammadIOT\\Desktop\\Applications\\ConsoleApplication1\\RealTimeWindows\\ConsoleApplication1\\mainheader.h",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\mainheader.h",
+              "ToolTip": "C:\\Users\\ZTIMohammadIOT\\Desktop\\Applications\\ConsoleApplication1\\RealTimeWindows\\ConsoleApplication1\\mainheader.h",
+              "RelativeToolTip": "ConsoleApplication1\\mainheader.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-11T09:35:01.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mainheader.cpp",
+              "DocumentMoniker": "C:\\Users\\ZTIMohammadIOT\\Desktop\\Applications\\ConsoleApplication1\\RealTimeWindows\\ConsoleApplication1\\mainheader.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\mainheader.cpp",
+              "ToolTip": "C:\\Users\\ZTIMohammadIOT\\Desktop\\Applications\\ConsoleApplication1\\RealTimeWindows\\ConsoleApplication1\\mainheader.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\mainheader.cpp",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAI4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-11T09:33:36.942Z",
+              "EditorCaption": ""
             }
           ]
         }
