@@ -44,13 +44,13 @@ int main(void)
 					goto Cleanup;
 				}
 			}
-			else if (command == "4")
-			{
-				if(Set_Threads_Affinity(hThreadSnap, Mask)){ // set affinity mask (on how many cores do you want the procss to run)
-					std::cout << "Error Occured" << std::endl;
-					goto Cleanup;
-				}
-			}
+			//else if (command == "4")
+			//{
+			//	if(Set_Threads_Affinity(hThreadSnap, Mask)){ // set affinity mask (on how many cores do you want the procss to run)
+			//		std::cout << "Error Occured" << std::endl;
+			//		goto Cleanup;
+			//	}
+			//}
 			else throw std::runtime_error("Invalid Command");
 		}
 		catch ( const std::exception e) {

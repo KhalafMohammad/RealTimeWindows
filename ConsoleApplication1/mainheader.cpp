@@ -81,7 +81,7 @@ int Set_Process_Affinity(HANDLE process_handle, DWORD_PTR dwProcessAffinityMask)
 	}
 }
 
-
+// get the threads snapshot
 int Get_Process_Snapshot(DWORD processID) {
 
 	hThreadSnap = CreateToolhelp32Snapshot(TH32CS_SNAPTHREAD, processID); //get the thread snapshot
@@ -97,6 +97,7 @@ int Get_Process_Snapshot(DWORD processID) {
 
 }
 
+// sets the priority of the thread to the desiered class
 int Set_Threads_Priority(HANDLE thread_snap, int Priority) {
 
 	te32.dwSize = sizeof(THREADENTRY32); //set the size of the structure
@@ -127,6 +128,8 @@ int Set_Threads_Priority(HANDLE thread_snap, int Priority) {
 	}
 }
 
+//setting thread affinity should be avoided as it can cause the system to hang and cause shedualer to not work properly
+// use this function with caution
 int Set_Threads_Affinity(HANDLE thread_snap, DWORD_PTR dwThreadAffinityMask) {
 
 	te32.dwSize = sizeof(THREADENTRY32); //set the size of the structure
